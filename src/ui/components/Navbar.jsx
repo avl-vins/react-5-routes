@@ -98,7 +98,7 @@ export const Navbar = () => {
   return (
     <Navegation>
         <Link to="/" className="logo">
-            <img className="logo__img" src="logo.png" alt="logo" />
+            <img className="logo__img" src="./logo.png" alt="logo" />
         </Link>
         <ul className="list">
 
