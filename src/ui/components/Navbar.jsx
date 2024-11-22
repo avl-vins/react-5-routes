@@ -98,9 +98,8 @@ export const Navbar = () => {
   return (
     <Navegation>
         <Link to="/" className="logo">
-            <img className="logo__img" src={logo} alt="" />
+            <img className="logo__img" src="logo.png" alt="logo" />
         </Link>
-
         <ul className="list">
 
             <NavLink to="/saiyan" className={ ( { isActive } ) => ` ${ isActive ? "active" : "noactive" }  link `} >Saiyan</NavLink>
