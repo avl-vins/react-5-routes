@@ -3,7 +3,7 @@ import { Card } from "./Card"
 import { useData } from "../hooks"
 
 const CardContainer = styled.section`
-
+  padding-bottom:2rem;
   display:flex;
   flex-wrap:wrap;
   gap:2rem;
